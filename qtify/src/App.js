@@ -1,6 +1,7 @@
 // import { useEffect, useState } from "react";
 import React from "react"
 import Navbar from "./Components/Navbar/Navbar";
+import Hero from "./Hero/Hero";
 // import Hero from "../Components/Hero/Hero"
 // import { Outlet } from "react-router-dom";
 // import { fetchNewAlbums, fetchSongs, fetchTopAlbums } from "./Api/Api";
@@ -31,6 +32,7 @@ function App() {
     <>
       {/* <Navbar searchData={[...topAlbums, ...newAlbums]} /> */}
       <Navbar />
+      <Hero />
 
      {/* placeholder component (replaced with childcomponent) */}
      {/* <Outlet context={{data: {topAlbums, newAlbums, songs}}}/>  */}
