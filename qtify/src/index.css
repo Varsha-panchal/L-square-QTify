@@ -45,6 +45,9 @@ p, h1, h2, h3, h4, h5, h6
 #__next{
   isolation: isolate;
 }
+.swiper-slide {
+  width: auto !important;
+}
 
 .swiper-slide{
   width: auto !important;
